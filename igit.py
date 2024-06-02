@@ -1,9 +1,3 @@
-#__________________| INFO |___________________#
-#______SCRIPT ENCRYPTED BY PYTHON 3.0
-#______CODING BY: U7P4L 1N
-#______GITHUB : https://github.com/U7P4L-IN
-#________________| SCRIPT DATA |_____________#
-
 import os
 try:
 	import requests
